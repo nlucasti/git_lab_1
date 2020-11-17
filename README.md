@@ -1,3 +1,3 @@
-#Learning Git
+# Learning Git
 
-##A repo for learning about git
+## A repo for learning about git
