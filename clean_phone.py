@@ -10,7 +10,7 @@ def validate_phone(phone_number):
     Return:
     A boolean Pandas Series
     """
-    bool_phone = phone_number.str.contains("^\d{3}[-]?\d{3}[-]?\d{3}")
+    bool_phone = phone_number.str.contains("^\d{3}[-]?\d{3}[-]?\d{4}")
     return bool_phone
 
 numbers = pd.Series(['531-231-1231','235-123-2352','23-12-41'])
